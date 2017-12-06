@@ -43,7 +43,7 @@ a {
   right: 10px; }
 
 #menu2 {
-  width: 505px;
+  width: 565px;
   height: 35px;
   position: fixed;
   position: absolute;
@@ -51,56 +51,62 @@ a {
 
 #option1 {
   position: absolute;
-  left: 155px;
-  top: 37px;
-  z-index: 666;
+  width: 250px;
+  height: 300px;
+  top: 35px;
+  left: -100px;
+  z-index: 70;
   display: none; }
 
-#option1 li {
+#option1 ul li {
   width: 250px;
   height: 40px;
-  background-color: #fff; }
+  background-color: #fff;
+  float: left;
+  color: #668066;
+  font-size: 12px; }
 
-#option1 li:hover {
-  width: 252px;
-  height: 42px;
-  background-color: #F0F1F6;
-  font-size: 18px;
-  cursor: pointer; }
+#option1 ul li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
 
 #option2 {
   position: absolute;
-  left: 200px;
-  top: 50px;
-  z-index: 666;
-  display: none; }
+  left: -20px;
+  top: 35px;
+  z-index: 71;
+  display: none;
+  width: 230px;
+  height: 192px; }
 
-#option2 li {
-  width: 250px;
+#option2 ul li {
+  width: 230px;
   height: 40px;
-  background-color: #fff; }
+  background-color: #fff;
+  color: #668066; }
 
-#option2 li:hover {
-  width: 252px;
-  height: 42px;
-  background-color: #F0F1F6;
-  font-size: 18px;
-  cursor: pointer; }
+#option2 ul li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
 
 #option3 {
   width: 307px;
   position: absolute;
   left: 20px;
-  top: 40px;
+  top: 38px;
   z-index: 666;
   display: none; }
 
-#option3 #eastId p {
-  color: #0a3665;
+#option3 #eastId {
+  color: blue;
   font-size: 16px;
   font-weight: 900; }
 
-#option3 #westId p {
+#option3 #westId {
   color: red;
   font-size: 16px;
   font-weight: 900; }
@@ -120,6 +126,153 @@ a {
   font-size: 18px;
   cursor: pointer; }
 
+#menu #option4 {
+  position: absolute;
+  left: 30px;
+  top: 35px;
+  z-index: 75;
+  display: none;
+  width: 250px;
+  height: 255px; }
+
+#menu #option4 #option4-1 li {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option4 #option4-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option5 {
+  position: absolute;
+  left: 90px;
+  top: 35px;
+  z-index: 78;
+  display: none;
+  width: 250px;
+  height: 145px; }
+
+#menu #option5 #option5-1 li {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option5 #option5-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option6 {
+  position: absolute;
+  left: 145px;
+  top: 35px;
+  z-index: 79;
+  display: none;
+  width: 250px;
+  height: 300px; }
+
+#menu #option6 #option6-1 li {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option6 #option6-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option7 {
+  position: absolute;
+  left: 210px;
+  top: 35px;
+  z-index: 79;
+  display: none;
+  width: 250px;
+  height: 200px; }
+
+#menu #option7 #option7-1 li {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option7 #option7-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option8 {
+  position: absolute;
+  left: 267px;
+  top: 35px;
+  z-index: 79;
+  display: none;
+  width: 250px;
+  height: 145px; }
+
+#menu #option8 #option8-1 li {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option8 #option8-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option9 {
+  position: absolute;
+  left: 331px;
+  top: 35px;
+  z-index: 79;
+  display: none;
+  width: 250px;
+  height: 350px; }
+
+#menu #option9 #option9-1 li {
+  width: 240px;
+  height: 30px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option9 #option9-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
+#menu #option10 {
+  position: absolute;
+  left: 396px;
+  top: 35px;
+  z-index: 79;
+  display: none;
+  width: 250px;
+  height: 300px; }
+
+#menu #option10 #option10-1 li {
+  width: 240px;
+  height: 30px;
+  background-color: #fff;
+  color: #668066; }
+
+#menu #option10 #option10-1 li:hover {
+  background: gainsboro;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0669b2; }
+
 #ulId {
   text-align: center; }
 
@@ -134,11 +287,11 @@ a {
   font-weight: 900; }
 
 #ulId li:hover {
-  background: indianred;
-  color: black; }
+  background: #005599;
+  color: red; }
 
 #menu3 {
-  width: 503px;
+  width: 470px;
   height: 35px;
   position: absolute;
   right: 0px; }
@@ -463,5 +616,101 @@ a {
   position: absolute;
   left: 0px;
   bottom: 15px; }
+
+.reg_tip1 {
+  top: 40px;
+  left: 200px;
+  position: absolute;
+  width: 260px;
+  height: 23px;
+  color: red;
+  font-size: 14px; }
+
+.reg_list {
+  position: relative; }
+
+.phone_num {
+  position: absolute;
+  top: -17px;
+  left: 200px; }
+
+.verification_code {
+  position: absolute;
+  top: 60px;
+  left: 200px; }
+
+.verify {
+  position: absolute;
+  top: 68px;
+  left: 345px; }
+
+.change_other_code {
+  position: absolute;
+  top: 85px;
+  left: 490px; }
+
+.lookN {
+  position: absolute;
+  top: 85px;
+  left: 430px; }
+
+.reg_tip2 {
+  top: 112px;
+  left: 200px;
+  position: absolute;
+  width: 260px;
+  height: 23px;
+  color: red;
+  font-size: 14px; }
+
+.message_verification_code {
+  position: absolute;
+  top: 132px;
+  left: 200px; }
+
+.reg_tip3 {
+  top: 185px;
+  left: 200px;
+  position: absolute;
+  width: 260px;
+  height: 23px;
+  color: red;
+  font-size: 14px; }
+
+.yanzheng {
+  position: absolute;
+  top: 150px;
+  left: 350px; }
+
+.password {
+  position: absolute;
+  top: 203px;
+  left: 200px; }
+
+.reg_tip4 {
+  top: 258px;
+  left: 200px;
+  position: absolute;
+  width: 265px;
+  height: 23px;
+  color: red;
+  font-size: 14px; }
+
+.password_repeat {
+  position: absolute;
+  top: 275px;
+  left: 200px; }
+
+.reg_tip5 {
+  top: 330px;
+  left: 200px;
+  position: absolute;
+  width: 265px;
+  height: 23px;
+  color: red;
+  font-size: 14px; }
+
+#leftP3 {
+  position: absolute; }
 
 /*# sourceMappingURL=Login.css.map */
