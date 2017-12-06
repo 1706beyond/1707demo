@@ -214,7 +214,7 @@ a{text-decoration: none;}
     right: 10px;
 }
 #menu2{
-    width: 505px;
+    width: 565px;
     height:35px;
     position: fixed;
     position: absolute;
@@ -226,7 +226,7 @@ a{text-decoration: none;}
     width: 250px;
     height:300px;
     top:35px;
-    left:-80px;
+    left:-100px;
     z-index: 70;
     display: none;
 
@@ -237,12 +237,14 @@ a{text-decoration: none;}
     height:40px;
     background-color:#fff;
     float:left;
-    color:#000;
+    color:#668066;
+    font-size:12px;
 }
-#option1 li:hover{
-    background-color:#F0F1F6;
-    font-size:18px;
+#option1 ul li:hover{
+    background:gainsboro;
+    font-size:16px;
     cursor: pointer;
+    color:#0669b2;
 }
 #option2{
     position:absolute;
@@ -258,12 +260,13 @@ a{text-decoration: none;}
     width: 250px;
     height:40px;
     background-color:#fff;
-    color:#000;
+    color:#668066;
 }
-#option2 li:hover{
-    background-color:#F0F1F6;
-    font-size:18px;
+#option2 ul li:hover{
+    background:gainsboro;
+    font-size:16px;
     cursor: pointer;
+    color:#0669b2;
 }
 #option3{
    width: 307px;
@@ -276,7 +279,7 @@ a{text-decoration: none;}
 #option3 .eastId{
   color:#0a3665;
   font-size:18px;
-  font-weight: 900;;
+  font-weight: 900;
 }
 #option3 .westId{
   color:red;
@@ -290,14 +293,165 @@ a{text-decoration: none;}
    float:left;
    background-color:#fff;
    font-size:12px;
-   color: gray;
+   color:#668066;
 }
 #option3 li:hover{
     width: 151px;
-    color:#0a3665;
-    background-color:#F0F1F6;
-    font-size:18px;
+    color:#0669b2;
+    background:gainsboro;
+    font-size:16px;
     cursor: pointer;
+}
+#menu #option4{
+    position:absolute;
+    left:30px;
+    top:35px;
+    z-index:75;
+  display: none;
+    width: 250px;
+    height:255px;
+}
+#menu #option4 #option4-1 li{
+    width:250px;
+    height:40px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option4 #option4-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+#menu #option5{
+    position:absolute;
+    left:90px;
+    top:35px;
+    z-index:78;
+  display: none;
+    width: 250px;
+    height:145px;
+}
+#menu #option5 #option5-1 li{
+    width:250px;
+    height:40px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option5 #option5-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+
+#menu #option6{
+    position:absolute;
+    left:145px;
+    top:35px;
+    z-index:79;
+  display: none;
+    width: 250px;
+    height:300px;
+}
+#menu #option6 #option6-1 li{
+    width:250px;
+    height:40px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option6 #option6-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+
+#menu #option7{
+    position:absolute;
+    left:210px;
+    top:35px;
+    z-index:79;
+  display: none;
+    width: 250px;
+    height:200px;
+}
+#menu #option7 #option7-1 li{
+    width:250px;
+    height:40px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option7 #option7-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+#menu #option8{
+    position:absolute;
+    left:267px;
+    top:35px;
+    z-index:79;
+  display: none;
+    width: 250px;
+    height:145px;
+}
+#menu #option8 #option8-1 li{
+    width:250px;
+    height:40px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option8 #option8-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+
+#menu #option9{
+    position:absolute;
+    left:331px;
+    top:35px;
+    z-index:79;
+  display: none;
+    width: 250px;
+    height:350px;
+}
+#menu #option9 #option9-1 li{
+    width:240px;
+    height:30px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option9 #option9-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
+}
+
+#menu #option10{
+    position:absolute;
+    left:396px;
+    top:35px;
+    z-index:79;
+    display: none;
+    width: 250px;
+    height:300px;
+}
+#menu #option10 #option10-1 li{
+    width:240px;
+    height:30px;
+    background-color:#fff;
+    color:#668066;
+}
+#menu #option10 #option10-1 li:hover{
+    background:gainsboro;
+    font-size:16px;
+    cursor: pointer;
+    color:#0669b2;
 }
 #ulId{
     text-align: center;
@@ -313,11 +467,11 @@ a{text-decoration: none;}
     font-weight: 900;
 }
 #ulId li:hover{
-    background: indianred;
-    color:black;
+    background:#005599;
+    color:red;
 }
 #menu3{
-    width: 503px;
+    width: 470px;
     height:35px;
     
     position: absolute;
