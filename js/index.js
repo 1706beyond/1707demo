@@ -76,7 +76,7 @@
 		lis[i].innerHTML="<img src='img/ban"+(i+1)+".jpg'/>"
 	}
 	
-	//下拉框
+//下拉框
 	$("#mId1").onmouseover=function(){
 
 		$("#option1").style="display:block;"
@@ -112,6 +112,122 @@
 	};
 	
 	
+	
+	$("#mId3").onmouseover=function(){
+
+		$("#option4").style="display:block;"
+	};
+	$("#mId3").onmouseout=function(){
+		$("#option4").style="display:none;"
+	};
+	$("#option4").onmouseover=function(){
+
+		$("#option4").style="display:block;"
+	};
+	
+	$("#option4").onmouseout=function(){
+		$("#option4").style="display:none;"
+	};
+
+	
+	
+$("#mId4").onmouseover=function(){
+
+		$("#option5").style="display:block;"
+	};
+	$("#mId4").onmouseout=function(){
+		$("#option5").style="display:none;"
+	};
+	$("#option5").onmouseover=function(){
+
+		$("#option5").style="display:block;"
+	};
+	
+	$("#option5").onmouseout=function(){
+		$("#option5").style="display:none;"
+	};
+	
+	
+$("#mId5").onmouseover=function(){
+
+		$("#option6").style="display:block;"
+	};
+	$("#mId5").onmouseout=function(){
+		$("#option6").style="display:none;"
+	};
+	$("#option6").onmouseover=function(){
+
+		$("#option6").style="display:block;"
+	};
+	
+	$("#option6").onmouseout=function(){
+		$("#option6").style="display:none;"
+	};
+	
+	
+$("#mId6").onmouseover=function(){
+
+		$("#option7").style="display:block;"
+	};
+	$("#mId6").onmouseout=function(){
+		$("#option7").style="display:none;"
+	};
+	$("#option7").onmouseover=function(){
+
+		$("#option7").style="display:block;"
+	};
+	
+	$("#option7").onmouseout=function(){
+		$("#option7").style="display:none;"
+	};
+	
+$("#mId7").onmouseover=function(){
+
+		$("#option8").style="display:block;"
+	};
+	$("#mId7").onmouseout=function(){
+		$("#option8").style="display:none;"
+	};
+	$("#option8").onmouseover=function(){
+
+		$("#option8").style="display:block;"
+	};
+	
+	$("#option8").onmouseout=function(){
+		$("#option8").style="display:none;"
+	};
+	
+$("#mId8").onmouseover=function(){
+
+		$("#option9").style="display:block;"
+	};
+	$("#mId8").onmouseout=function(){
+		$("#option9").style="display:none;"
+	};
+	$("#option9").onmouseover=function(){
+
+		$("#option9").style="display:block;"
+	};
+	
+	$("#option9").onmouseout=function(){
+		$("#option9").style="display:none;"
+	};
+	
+$("#mId9").onmouseover=function(){
+
+		$("#option10").style="display:block;"
+	};
+	$("#mId9").onmouseout=function(){
+		$("#option10").style="display:none;"
+	};
+	$("#option10").onmouseover=function(){
+
+		$("#option10").style="display:block;"
+	};
+	
+	$("#option10").onmouseout=function(){
+		$("#option10").style="display:none;"
+	};
 	//选择球队<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 	$("#menu1").onmouseover=function(){
 
@@ -128,7 +244,6 @@
 		$("#option3").style="display:none;"
 	};
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-	
 	
 	
 	
@@ -217,3 +332,4 @@ var oSearchList = document.getElementById('search-list');
                 oSearchList.appendChild(oLi);
             });
         }
+        
