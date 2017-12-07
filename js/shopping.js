@@ -1,3 +1,46 @@
+var oSearchForm    = document.forms['search-form'];
+var oSearchContent = oSearchForm.elements['search-content'];
+var oSearchList = document.getElementById('search-list');
+
+		// 缓存输入框默认的内容
+		var sDefaultVal   = oSearchContent.value;
+
+
+		// 输入框获得焦点，清空内容
+		oSearchContent.onfocus = function () {
+			if(this.value === sDefaultVal) {
+				this.value = '';
+			}
+		};
+		// 输入框失去焦点，恢复内容
+		oSearchContent.onblur = function () {
+			if(this.value === '') {
+				this.value = sDefaultVal;
+			}
+		};
+		
+ oSearchContent.oninput = oSearchContent.onpropertychange = function () {
+            var sVal = this.value;
+            oSearchList.innerHTML = '';
+            if(sVal !== '') {
+                var oScript = document.createElement('script');
+                oScript.src = 'https://suggest.taobao.com/sug?code=utf-8&q='+sVal+'&_ksTS=1511667667645_642&callback=callback&k=1&area=c2c&bucketid=4';
+                document.body.appendChild(oScript);
+            }
+        };
+
+        // 声明回调函数
+        function callback(data) {
+            data.result.forEach((v) => {
+                var oLi = document.createElement('li');
+                oLi.innerHTML = v;
+                oSearchList.appendChild(oLi);
+            });
+        }
+        
+
+
+
 $('#menu1').bind('mouseenter',function(){
 	$('#option3').stop(true).slideDown(300,'linear');
 })
@@ -70,135 +113,6 @@ $('#mId9').bind('mouseleave',function(){
 })
 
 
- document.getElementById("erweiId1").onmouseover=function(){
-
-		document.getElementById("erweiId3").style="display:block;"
-	};
-	
-	document.getElementById("erweiId1").onmouseout=function(){
-		document.getElementById("erweiId3").style="display:none;"
-	};
-	
-	
-	document.getElementById("erweiId2").onmouseover=function(){
-
-		document.getElementById("erweiId4").style="display:block;"
-	};
-	document.getElementById("erweiId2").onmouseout=function(){
-		document.getElementById("erweiId4").style="display:none;"
-	};
-	
-
-
-
-    var oCheck1=document.check1;
-	var oPhoneNum=oCheck1.phone_num;
-	var oRegTip1=document.getElementById('reg_tip1');
-	oPhoneNum.onfocus=function(){
-		
-	oRegTip1.style.display='none';
-		
-	}
-	oPhoneNum.onblur=function(){
-	var aPhoneNum=oPhoneNum.value;
-		oRegTip1.style.display='block';
-	oReg=/^1\d{10}$/g;
-	
-	if(oReg.test(aPhoneNum)){
-		oRegTip1.innerHTML='√';
-	}else{
-		
-		oRegTip1.innerHTML='必须为数字,必须以1开头,长度11位';
-	}
-	}
-	
-
-    var oCheck2=document.check2;
-	var oVerificationCode=oCheck2.verification_code;
-	var oRegTip2=document.getElementById('reg_tip2');
-	oVerificationCode.onfocus=function(){
-		
-	oRegTip2.style.display='none';
-		
-	}
-	oVerificationCode.onblur=function(){
-	var aVerificationCode=oVerificationCode.value;
-		oRegTip2.style.display='block';
-	oReg=/^\d{4}$/gi;
-	
-	if(oReg.test(aVerificationCode)){
-		oRegTip2.innerHTML='√';
-	}else{
-		
-		oRegTip2.innerHTML='验证码必须为四位';
-	}
-	}
-	
-   var oCheck3=document.check3;
-	var oMessageVerificationCode=oCheck3.message_verification_code;
-	var oRegTip3=document.getElementById('reg_tip3');
-	oMessageVerificationCode.onfocus=function(){
-		
-	oRegTip3.style.display='none';
-		
-	}
-	oMessageVerificationCode.onblur=function(){
-	var aMessageVerificationCode=oMessageVerificationCode.value;
-		oRegTip3.style.display='block';
-	oReg=/^\d{4}$/gi;
-	
-	if(oReg.test(aMessageVerificationCode)){
-		oRegTip3.innerHTML='√';
-	}else{
-		
-		oRegTip3.innerHTML='请输入正确的验证码';
-	}
-	}
-	
-
-   var oCheck4=document.check4;
-	var oPassword=oCheck4.password;
-	var oRegTip4=document.getElementById('reg_tip4');
-	oPassword.onfocus=function(){
-		
-	oRegTip4.style.display='none';
-		
-	}
-	oPassword.onblur=function(){
-	var aPassword=oPassword.value;
-		oRegTip4.style.display='block';
-	oReg=/^[a-zA-Z0-9]{6,16}$/g;
-	
-	if(oReg.test(aPassword)){
-		oRegTip4.innerHTML='√';
-	}else{
-		
-		oRegTip4.innerHTML='密码必须由数字和字母组成，不能少于6位';
-	}
-	}
-	
- var oCheck5=document.check5;
-	var oPasswordRepeat=oCheck5.password_repeat;
-	var oRegTip5=document.getElementById('reg_tip5');
-	oPasswordRepeat.onfocus=function(){
-		
-	oRegTip5.style.display='none';
-		
-	}
-	oPasswordRepeat.onblur=function(){
-	var aPasswordRepeat=oPasswordRepeat.value;
-		oRegTip5.style.display='block';
-		
-	oReg=/^[a-zA-Z0-9]{6,16}$/g;
-	
-  if ($(".password").val() != $(".password_repeat").val()){
-      oRegTip5.innerHTML='请保持前后输入密码的一致性';
-  }else{
-  	oRegTip5.innerHTML='√';
-  }
-}
-
-	
 //ceiling吸顶------------start---------
  window.onscroll = function () {
    var box_h=document.documentElement.scrollTop || document.body.scrollTop;
@@ -279,4 +193,4 @@ $('#ceimId9').bind('mouseenter',function(){
 $('#ceimId9').bind('mouseleave',function(){
 	$('#ceioption10').stop(true).slideUp(100,'linear');
 })
-//-----------------End-------------
+//ceiling吸顶-----------------------End-------------

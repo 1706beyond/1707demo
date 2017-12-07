@@ -266,7 +266,7 @@ $("#mId9").onmouseover=function(){
 		$("#erweiId4").style="display:none;"
 	};
 	
-	//bottom4的图片轮换
+//-------------------------------bottom4的图片轮换
 	
 	var num=0;
 	$("#right1").onclick=function(){
@@ -333,3 +333,181 @@ var oSearchList = document.getElementById('search-list');
             });
         }
         
+//ceiling吸顶------------start---------
+ window.onscroll = function () {
+   var box_h=document.documentElement.scrollTop || document.body.scrollTop;
+   if(box_h>100){
+   	document.getElementById('ceiling-wrap').style.top=0 + 'px';
+   }else{
+   	document.getElementById('ceiling-wrap').style.top=-100+'px';
+   	
+   }
+   };
+   
+//下拉框
+	$("#ceimId1").onmouseover=function(){
+
+		$("#ceioption1").style="display:block;"
+	};
+	$("#ceimId1").onmouseout=function(){
+		$("#ceioption1").style="display:none;"
+	};
+	$("#ceioption1").onmouseover=function(){
+		$("#ceioption1").style="display:block;"
+	};
+	$("#ceioption1").onmouseout=function(){
+		$("#ceioption1").style="display:none;"
+	};
+	
+	
+	
+	
+	
+	$("#ceimId2").onmouseover=function(){
+
+		$("#ceioption2").style="display:block;"
+	};
+	$("#ceimId2").onmouseout=function(){
+		$("#ceioption2").style="display:none;"
+	};
+	$("#ceioption2").onmouseover=function(){
+
+		$("#ceioption2").style="display:block;"
+	};
+	
+	$("#ceioption2").onmouseout=function(){
+		$("#ceioption2").style="display:none;"
+	};
+	
+	
+	
+	$("#ceimId3").onmouseover=function(){
+
+		$("#ceioption4").style="display:block;"
+	};
+	$("#ceimId3").onmouseout=function(){
+		$("#ceioption4").style="display:none;"
+	};
+	$("#ceioption4").onmouseover=function(){
+
+		$("#ceioption4").style="display:block;"
+	};
+	
+	$("#ceioption4").onmouseout=function(){
+		$("#ceioption4").style="display:none;"
+	};
+
+	
+	
+$("#ceimId4").onmouseover=function(){
+
+		$("#ceioption5").style="display:block;"
+	};
+	$("#ceimId4").onmouseout=function(){
+		$("#ceioption5").style="display:none;"
+	};
+	$("#ceioption5").onmouseover=function(){
+
+		$("#ceioption5").style="display:block;"
+	};
+	
+	$("#ceioption5").onmouseout=function(){
+		$("#ceioption5").style="display:none;"
+	};
+	
+	
+$("#ceimId5").onmouseover=function(){
+
+		$("#ceioption6").style="display:block;"
+	};
+	$("#ceimId5").onmouseout=function(){
+		$("#ceioption6").style="display:none;"
+	};
+	$("#ceioption6").onmouseover=function(){
+
+		$("#ceioption6").style="display:block;"
+	};
+	
+	$("#ceioption6").onmouseout=function(){
+		$("#ceioption6").style="display:none;"
+	};
+	
+	
+$("#ceimId6").onmouseover=function(){
+
+		$("#ceioption7").style="display:block;"
+	};
+	$("#ceimId6").onmouseout=function(){
+		$("#ceioption7").style="display:none;"
+	};
+	$("#ceioption7").onmouseover=function(){
+
+		$("#ceioption7").style="display:block;"
+	};
+	
+	$("#ceioption7").onmouseout=function(){
+		$("#ceioption7").style="display:none;"
+	};
+	
+$("#ceimId7").onmouseover=function(){
+
+		$("#ceioption8").style="display:block;"
+	};
+	$("#ceimId7").onmouseout=function(){
+		$("#ceioption8").style="display:none;"
+	};
+	$("#ceioption8").onmouseover=function(){
+
+		$("#ceioption8").style="display:block;"
+	};
+	
+	$("#ceioption8").onmouseout=function(){
+		$("#ceioption8").style="display:none;"
+	};
+	
+$("#ceimId8").onmouseover=function(){
+
+		$("#ceioption9").style="display:block;"
+	};
+	$("#ceimId8").onmouseout=function(){
+		$("#ceioption9").style="display:none;"
+	};
+	$("#ceioption9").onmouseover=function(){
+
+		$("#ceioption9").style="display:block;"
+	};
+	
+	$("#ceioption9").onmouseout=function(){
+		$("#ceioption9").style="display:none;"
+	};
+	
+$("#ceimId9").onmouseover=function(){
+
+		$("#ceioption10").style="display:block;"
+	};
+	$("#ceimId9").onmouseout=function(){
+		$("#ceioption10").style="display:none;"
+	};
+	$("#ceioption10").onmouseover=function(){
+
+		$("#ceioption10").style="display:block;"
+	};
+	
+	$("#ceioption10").onmouseout=function(){
+		$("#ceioption10").style="display:none;"
+	};
+	//选择球队<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	$("#ceiling1").onmouseover=function(){
+
+		$("#ceioption3").style="display:block;"
+	};
+	$("#ceiling1").onmouseout=function(){
+		$("#ceioption3").style="display:none;"
+	};
+	$("#ceioption3").onmouseover=function(){
+		$("#ceioption3").style="display:block;"
+	};
+	
+	$("#ceioption3").onmouseout=function(){
+		$("#ceioption3").style="display:none;"
+	};
