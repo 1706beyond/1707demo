@@ -87,6 +87,9 @@ a {
   text-align: center;
   font-size: 14px;
   margin-top: 10px; }
+ #p4  a{
+  	 color: #ffffff;
+  }
 
 #p4:hover {
   border-cursor: pointer;
