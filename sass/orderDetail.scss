@@ -1,0 +1,117 @@
+.d-content-wrap{
+    width:100%;
+    height:116px;
+}
+.d-content{
+    width:1163px;
+    height:116px;
+    margin:0px auto;
+    margin-left:70px;
+}
+.d-content1{
+    width:150px;
+    height:66px;
+    font-size:22px;
+    color:#333333;
+    padding-top:50px;
+}
+
+.matter-wrap{
+    width:100%;
+    height:645px;
+    background:pink;
+}
+.matter{
+    width:1163px;
+    height:645px;
+    margin:0px auto;
+    margin-left:70px;
+    background: gold;
+}
+.matter1{
+    float:left;
+    width:748px;
+    height:645px;
+    border:1px solid red;
+}
+.matter2{
+      float:left;
+    width:400px;
+    height:645px;
+    border:1px solid red;
+}
+.matter1-1{
+    width:748px;
+    height:245px;
+    border-bottom:1px solid gainsboro;
+}
+.matter1-1 li{
+    width:748px;
+    height:50px;
+    line-height:50px;
+}
+#mButton button{
+    width:162px;
+    height:38px;
+    background:#00559a;
+    font-size:14px;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+}
+.matter1-2{
+    width:748px;
+    height:270px;
+     border-bottom:1px solid gainsboro;
+}
+.matter1-2 li{
+    width:748px;
+    height:49px;
+    line-height:49px;
+    color:#333;
+}
+.matter1-2  .maSpan span{
+    font-size:14px;
+    color:#9d9d9d;
+}
+.matter1-2  .maSpan span a{
+    color:#9d9d9d;
+    text-decoration: underline;
+}
+.matter1-2 li img{
+    margin-left:20px;
+    margin-top:10px;
+}
+.matter1-3{
+    width:748px;
+    height:80px;
+     border-bottom:1px solid gainsboro;
+     line-height:80px;
+     font-size:14px;
+     color:#333;
+}
+.matter1-3 span{
+    margin-left:15px;
+}
+#matter1-3-1{
+    margin-top:35px;
+    width:100px;
+    height:36px;
+     line-height:36px;
+     font-size:14px;
+     color:#333;
+}
+#matter1-3-1:hover{
+    cursor:pointer;
+}
+.vote{
+    position:absolute;
+    width:400px;
+    height:200px;
+    border:1px solid red;
+    bottom:-410px;
+    left:115px;
+    z-index:40;
+    background:yellow;
+  display:none;
+}
