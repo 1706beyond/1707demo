@@ -71,10 +71,12 @@
 		clearInterval(timer);
 		timer=setInterval($("#right").onclick,2000);
 	}
-	let lis=$("#ulId3").children;
-	for(let i=0;i<lis.length;i++){
-		lis[i].innerHTML="<img src='img/ban"+(i+1)+".jpg'/>"
-	}
+	
+	
+//	let lis=$("#ulId3").children;
+//	for(let i=0;i<lis.length;i++){
+//		lis[i].innerHTML="<img src='img/ban"+(i+1)+".jpg'/>"
+//	}
 	
 //下拉框
 	$("#mId1").onmouseover=function(){

@@ -918,54 +918,68 @@ top:7px;
 	width:460px;
 	height:493px;
 }
-#content2-1{
+#middle-box{
+    width:460px;
+    height:460px;
+}
+#enlarge-box{
 	position: relative;
 	margin-top:5px;
 	width:460px;
 	height:460px;
 }
-#content2-1 img{
-	width:460px;
-	height:460px;
+//#content2-1 img{
+//	width:460px;
+//	height:460px;
+//}
+//#middle-img{
+//  position:absolute;
+//  top:0px;    
+//  width:460px;
+//   height:460px;
+//}
+#middle-img{
+     width:460px;
+     height:460px;  
 }
+
 .li_1{
 	position:absolute;
 	top:0px;	
 	width:460px;
 	 height:460px;			
 	}
-.li_2{
-	 position:absolute;
-	top:0px;	
-	width:460px;
-	height:460px;
-				
-}
-.li_3{
-	 position:absolute;
-	top:0px;	
-	width:460px;
-	height:460px;
-}
-.li_4{
-	position:absolute;
-	top:0px;	
-	width:460px;
-	height:460px;			
-	}
-.li_5{
- position:absolute;
-	top:0px;	
-	width:460px;
-	height:460px;			
-    }
+//.li_2{
+//	 position:absolute;
+//	top:0px;	
+//	width:460px;
+//	height:460px;
+//				
+//}
+//.li_3{
+//	 position:absolute;
+//	top:0px;	
+//	width:460px;
+//	height:460px;
+//}
+//.li_4{
+//	position:absolute;
+//	top:0px;	
+//	width:460px;
+//	height:460px;			
+//	}
+//.li_5{
+//  position:absolute;
+//	top:0px;	
+//	width:460px;
+//	height:460px;			
+//  }
 #large-box{
 	position:absolute;
 	left:462px;
 	top:0px;	
-	width:490px;
-	height:560px;
-	background: green;	
+	width:460px;
+	height:460px;
 	overflow:hidden;
 	display: none;
 	
@@ -974,16 +988,20 @@ top:7px;
 	position:absolute;
 	left:0px;
 	top:0px;
-	width:140px;
-	height:160px;
+	width:115px;
+	height:115px;
 	background-color:gainsboro;
 	opacity:0.2;
-	box-shadow:1px 2px 5px 4px gray;
+	 filter: alpha(opacity=20);
+	box-shadow:1px 2px 5px 4px black;
 	display:none;
 }
 #large-img{
-	width:980px;
-	height:1120px;
+    left:0;
+    top:0;
+    position: absolute;
+	width:920px;
+	height:920px;
 }
 
 
@@ -1077,6 +1095,11 @@ top:7px;
     line-height:36px;
     text-align: center;
     color:#333333;
+}
+.content5-2 li:hover{
+    cursor:pointer;
+    background:#006ab6;
+    color:#fff;
 }
 .content5-3{
 	float: left;

@@ -223,56 +223,73 @@ document.getElementById("content1-3").onclick=function(){
 
 
 //--------------------选项卡内容显示隐藏
-$(function(){
+
    $("#content1-1 ul li").click(function(){
-   $(this).addClass("on").siblings().removeClass("on"); //切换选中的按钮高亮状态
-   var index=$(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
-   $("#content2-1 > div").eq(index).show().siblings().hide(); //在按钮选中时在下面显示相应的内容，同时隐藏不需要的框架内容
-   });
+// $(this).addClass("on").siblings().removeClass("on"); //切换选中的按钮高亮状态
+// var index=$(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
+// $("#large-box > div").eq(index).show().siblings().hide();//在按钮选中时在下面显示相应的内容，同时隐藏不需要的框架内容
+// $("#middle-box > div").eq(index).show().siblings().hide();
+// });
+let img=$(this).children('img').attr('src');
+$("#middle-img").attr('src',img);
+$('#large-img').attr('src',img);
+
 });
 
 
 
-var oContent21=document.getElementById('content2-1')
-var oShadow=document.getElementById('shadow');
-var oLargeImg=document.getElementById('large-img');
-var oLargeBox=document.getElementById('large-box');
-var oContent2=document.getElementById('content2');
 
 
- var iMaxL =oContent21.offsetWidth  - oShadow.offsetWidth;
- var iMaxT =oContent21.offsetHeight - oShadow.offsetHeight;
-     oContent21.addEventListener('mousemove', (ev) => {
+
+    var oEnlargeBox= document.getElementById('enlarge-box');
+    var oMiddleImg = document.getElementById('middle-img');
+    var oLargeBox  = document.getElementById('large-box');
+    var oLargeImg  = document.getElementById('large-img');
+    var oMiddleBox = document.getElementById('middle-box');
+    var oShadow    = document.getElementById('shadow');
+     var oContent11   = document.getElementById('content1-1');
+
+
+    // 放大镜效果
+    var iMaxL = oMiddleBox.offsetWidth  - oShadow.offsetWidth;
+    var iMaxT = oMiddleBox.offsetHeight - oShadow.offsetHeight;
+    oMiddleBox.addEventListener('mousemove', (ev) => {
         var e = ev || window.event;
-
         var
-            iL = e.clientX - oContent2.offsetLeft - oShadow.offsetWidth/2 ;
-            iT = e.clientY - oContent2.offsetTop  - oShadow.offsetHeight/2;
-
+            iL = e.clientX - oEnlargeBox.offsetLeft - oShadow.offsetWidth-oContent11.offsetWidth;
+            iT = e.clientY - oEnlargeBox.offsetTop  - oShadow.offsetHeight;
 
         iL = Math.max(iL , 0);
         iT = Math.max(iT , 0);
-        iL = Math.min(iL , iMaxL);
-        iT = Math.min(iT, iMaxT);
-      
+        iL = Math.min(iL , iMaxL-oShadow.offsetWidth);
+        iT = Math.min(iT, iMaxT-oShadow.offsetHeight);
+
+
+        // 大图移动的距离和遮罩层移动的距离的比例关系
+        // iShadowCurL / iShadowMaxL = iImgCurL / iImgMaxL
+
         var iBigImgL = iL * (oLargeImg.offsetWidth - oLargeBox.offsetWidth) / iMaxL;
         var iBigImgT = iT * (oLargeImg.offsetHeight - oLargeBox.offsetHeight) / iMaxT;
 
-          
+
         oShadow.style.left = iL + 'px';
         oShadow.style.top  = iT + 'px';
-           
+
+
         oLargeImg.style.left = -iBigImgL + 'px';
         oLargeImg.style.top  = -iBigImgT + 'px';
+
+  
     });
     
-     $('#content2-1').bind('mouseenter',function(){
+     $('#middle-box').bind('mouseenter',function(){
+     	 oLargeBox.style.display = 'block';
      	$('#large-box').stop(true).animate({width:490,height:560},300,'linear');
      	$('#shadow').stop(true).show(100,'linear');
-     	 oLargeBox.style.display = 'block';
+     	
     });
     
-    $('#content2-1').bind('mouseleave',function(){
+    $('#middle-box').bind('mouseleave',function(){
     		$('#shadow').stop(true).hide(100,'linear');
     		$('#large-box').stop(true).animate({width:0,height:0},300,'linear');
     });

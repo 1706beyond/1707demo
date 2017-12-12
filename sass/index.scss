@@ -77,9 +77,11 @@ a{text-decoration: none;}
     margin-top:10px;
     
 }
-#p3:hover{
+#p3 a{
+    color:#fff;
+}
+#p3 a:hover{
     border-cursor:pointer;
-    
     color:red;
 }
 #p4{
@@ -95,9 +97,11 @@ a{text-decoration: none;}
     margin-top:10px;
     
 }
-#p4:hover{
+#p4 a{
+    color:#fff;
+}
+#p4 a:hover{
     border-cursor:pointer;
-    
     color:red;
 }
 #top2{
@@ -655,10 +659,16 @@ ul,li{
 
 
 #ulId3 li{
-    float: left;
+    float:left;
     width:564px;
     height:237px;
 }
+//#ulId3 a li{
+//  float: left;
+//  width:564px;
+//  height:237px;
+//}
+
 
 /************bottom*****start********************/
 #bottom-wrap{

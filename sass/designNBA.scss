@@ -1,0 +1,388 @@
+.nContent-wrap{
+    width:100%;
+    background-image: url(../img/nba2.jpg);
+}
+.nContent{
+  width:1190px;
+  height:346px;
+}
+.nContent1{
+    float:left;
+    width:300px;
+    height:345px;
+     margin-left:70px;
+}
+.nContent1-1{
+     width:150px;
+    height:80px;
+     margin-top:30px;
+     padding-left:150px;
+}
+.nContent1-2{
+    font-size:20px;
+     width:140px;
+    height:40px;
+     padding-left:160px;
+     font-weight:900;
+}
+.nContent1-3{
+     width:300px;
+    height:90px;
+     color:#6d6e70;
+}
+.nContent1-3 li{
+    font-size:14px;
+    width:300px;
+    height:25px;
+}
+.nContent1-4{
+     width:150px;
+     height:40px;
+     color:#00539c;
+     font-weight:900;
+     font-size:20px;
+     padding-left:150px;
+}
+.nContent1-5{
+     width:300px;
+     height:40px;
+     color:#00539c;
+     
+}
+.nContent1-5 input{
+    width:166px;
+    height:38px;
+    border:2px solid #00559a;
+    margin-left:110px;
+    color:#00559a;
+}
+.nContent1-5 input:hover{
+    cursor:pointer;
+    color:#0000FF;
+     border:2px solid #0000FF;
+}
+.nContent2{
+    float:left;
+    width:600px;
+    height:346px;
+    margin-left:200px;
+}
+
+.nSelect-wrap{
+    width:100%;
+}
+.nSelect{
+    width:1150px;
+    height:148px;
+    margin:0 auto;
+}
+.nSelect1{
+    margin-top:30px;
+    margin-left:70px;
+    width:800px;
+    height:100px;
+}
+.nSelect1 li{
+     width:800px;
+    height:47px;
+     line-height:47px;
+}
+.nBallTeam-wrap{
+    width:100%;
+    background:#eeeeee;
+}
+.nBallTeam{
+    width:1150px;
+    height:164px;
+    margin:0 auto;
+    padding-top:50px;
+}
+.nBallTeam li{
+    float:left;
+    width:160px;
+    height:115px;
+    margin-left:70px;
+    line-height:115px;
+     position:relative;
+}
+.nBallTeam li img{
+    float:left;
+    margin-left:15px;
+}
+.nBallTeam1{
+    float:left;
+    width:20px;
+    height:115px;
+}
+.nBallTeam li #nbutton1{
+   
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    border:1px solid gray;
+    background:#fff;
+}
+.nBallTeam1-1{
+    position:absolute;
+    top:54px;
+    left:6px;
+    width:8px;
+    height:8px;
+    background:#00539c;
+    border-radius:50%;
+    display:none;
+}
+
+.nLikeCloth-wrap{
+    width:100%;
+}
+.nLikeCloth{
+    width:1150px;
+    height:148px;
+    margin:0 auto;
+}
+.nLikeCloth1{
+    margin-top:30px;
+    margin-left:70px;
+    width:800px;
+    height:100px;
+}
+.nLikeCloth1 li{
+     width:800px;
+    height:47px;
+     line-height:47px;
+}
+.nNongniu-wrap{
+    width:100%;
+    background:#eeeeee;
+}
+.nNongniu{
+    width:1100px;
+    height:800px;
+    border-bottom:1px solid #dbdbdb;
+    margin:0 auto;
+    margin-left:110px;
+}
+.nNongniu1 img{
+    width:158px;
+    height:160px;
+    margin-top:10px;
+}
+.nNongniu1{
+    width:158px;
+    height:160px;
+    margin-top:40px;
+}
+.nNongniu2{
+     width:790px;
+    height:90px;
+      margin-top:30px;
+}
+.nNongniu2 li{
+    margin-left:6px;
+    float:left;
+     width:378px;
+    height:90px;
+    
+}
+.nNongniu3{
+    width:1160px;
+}
+.nNongniu3 li{
+    margin-top:30px;
+    width:500px;
+    height:322px;
+    float:left;
+}
+.nNongniu3-1{
+    float:left;
+    width:100px;
+    height:100%;
+}
+.nNongniu3-1-1{
+     width:100px;
+      height:40px;
+     margin-top:30px;
+     line-height:40px;
+     font-size:14px;
+     font-weight:900;
+     text-align: center;
+}
+.nNongniu3-1-2{
+     width:100px;
+      height:40px;
+     margin-top:50px;
+     line-height:40px;
+     font-size:14px;
+     font-weight:900;
+     text-align: center;
+}
+.nNongniu3-1-3{
+     width:100px;
+      height:40px;
+     margin-top:50px;
+     line-height:40px;
+     font-size:14px;
+     font-weight:900;
+     text-align: center;
+}
+.nNongniu3-2{
+    float:left;
+    width:390px;
+    height:100%;
+    font-size:14px;
+    color:gray;
+}
+.nNongniu3-2 input{
+    width:263px;
+    height:39px;
+    border:1px solid gainsboro;
+    margin-top:10px;
+    border-radius:5px;
+}
+.nNongniu3-2-1{
+     width:390px;
+      height:60px;
+     margin-top:20px;
+}
+.nNongniu3-2-2{
+     width:390px;
+      height:60px;
+     margin-top:30px;
+}
+.nNongniu3-2-3{
+     width:390px;
+      height:45px;
+     margin-top:30px;
+}
+.nNongniu3-2-3 ul li{
+    float:left;
+     width:43px;
+     height:35px;
+     border:2px solid gray;
+     margin-left:5px;
+     line-height:35px;
+     text-align: center;
+     margin-top:5px;
+}
+.nNongniu3-2-3 ul li:hover{
+    cursor:pointer;
+     border:2px solid blue;
+     color:red;
+}
+.nNongniu3-3{
+    margin-top:5px;
+    float:left;
+    width:380px;
+    height:20px;
+    line-height:20px;
+    color:#9b9090;
+}
+.nNongniu3-3 span{
+    font-size:14px;
+    float:right;
+    text-decoration: underline;
+}
+.nNongniu3-3 span:hover{
+    cursor:pointer;
+}
+.nNongniu3-4{
+    margin-top:5px;
+    float:left;
+    width:380px;
+    height:35px;
+}
+.nNongniu3-4 input{
+    width:168px;
+    height:38px;
+    background:#e2e2e2;
+    border-radius:5px;
+    margin-top:0;
+    border:none;
+    font-size:12px;
+}
+.nNongniu3-4 input:hover{
+    cursor:pointer;
+    background:#fff;
+    color:red;
+}
+.dEnd-wrap{
+    width:100%;
+    background:#eeeeee;
+}
+.dEnd{
+    width:1040px;
+    height:300px;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+.dEnd li{
+    width:990px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    color:#58595b;
+}
+
+.nbaShadow{
+    position: absolute;
+    top:1400px;
+    left:440px;
+    width:420px;
+    height:450px;
+    background:#fff;
+    display:none;
+    z-index:10;
+    
+}
+.nbaShadow1{
+    width:100%;
+    height:35px;
+    background:gainsboro;
+    line-height:35px;
+    font-size:26px;
+    color:red;
+    font-weight:900;
+}
+.nbaShadow1 span{
+    float:right;
+}
+.nbaShadow1 span:hover{
+    cursor:pointer;
+}
+.nbaShadow2{
+    width:100%;
+    height:361px;
+    text-align: center;
+}
+.nbaShadow3{
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+}
+#nbaShadowButton{
+    width:156px;
+    height:40px;
+    border-radius:5px;
+    color:#fff;
+    background:#0669b2;
+    border:none;
+}
+#nbaShadowButton:hover{
+    cursor:pointer;
+    background:#0000FF;
+}
+
+#hidebg{
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color:gray;
+    width:100%;
+   filter:alpha(opacity=60); 
+    opacity:0.6;
+    display:none;
+   // z-Index:2;
+}
