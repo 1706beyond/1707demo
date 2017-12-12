@@ -384,13 +384,115 @@
 				</div>
 				
 				<!-------------------------------------->
-				<div class="matter2"></div>
+				<div class="matter2">
+					<div class="matter2-1">
+						<div class="matter2-1-1">
+							<ul>
+								<li>请选择您的优惠方式</li>
+								<li><input type="text" name="youhui" id="youhui" value="请输入您的优惠码" />
+								<input type="submit" name="" id="submit6" value="使用" />
+								</li>
+								<li style="font-size:12px;color:#fff;text-decoration: underline;"class="youhj">或选择优惠券</li>
+							</ul>
+						</div>
+					<!-------------------------------------->
+					<div class="matter2-1-2">
+						<ul>
+							<li>订单产品总额<span>¥259.00</span></li>
+							<li>实付运费<span>¥10.00</span></li>
+							<li>折扣总额<span>-¥0.00</span></li>
+							<li style="color:#fff;font-weight:900;font-size:20px;">订单总计<span>¥269.00</span></li>
+							<li><input type="submit" name="jiesuan" id="jiesuan" value="结算" /></li>
+						</ul>
+					</div>
+						
+					<!-------------------------------------->
+				   <div class="matter2-1-3"><img src="img/weiyi1.jpg"/></div>
+					</div>
+					
+				
+				</div>
+				
+				
 			</div>
 		</div>
-		
+		<div class="dAddress">
+			<div class="dAddress1"><span class="spaTime">&times;</span></div>
+			
+			<div class="dAddress2">添加地址</div>
+			
+			<div class="dAddress3">
+				<ul>
+					<li>*收货人姓名<input type="text" class="dAddtab1" value="请输入您的姓名" id="adcheck1"></li>
+					<li>*手机号码<input type="text" class="dAddtab2" value="请输入您的手机号码" id="adcheck2"></li>
+					<li>电话号码<input type="text" class="dAddtab3" value="请输入您的电话号码" id="adcheck3"></li>
+					<li>*邮箱<input type="text" class="dAddtab4" value="请输入您的邮箱" id="adcheck4"></li>
+					<li>*收货区域省
+					<select class="dAddtab5">
+						<option>省</option>
+						<option>河北</option>
+						<option>河南</option>
+						<option>江苏</option>
+						<option>陕西</option>
+						<option>甘肃</option>
+						<option>浙江</option>
+						<option>安徽</option>
+					</select>
+					<select class="dAddtable7">
+						<option>市</option>
+						<option>北京</option>
+						<option>上海</option>
+						<option>深圳</option>
+						<option>长沙</option>
+						<option>西安</option>
+						<option>兰州</option>
+						<option>郑州</option>
+						<option>襄阳</option>
+					</select>
+					<select class="dAddtable8">
+						<option>区</option>
+						<option>雁塔</option>
+						<option>莲湖 </option>
+						<option>新城</option>
+						<option>碑林</option>
+						<option>灞桥</option>
+						<option>未央</option>
+						<option>临潼</option>
+					</select>
+					</li>
+					<li>*地址<input type="text" class="dAddtab6" value="请输入您的地址" id="adcheck5"></li>
+				</ul>
+			</div>
+			
+			<div class="dAddress4"><input type="checkbox" name="" id="" value="" />设为默认</div>
+			
+			<div class="dAddress5">
+				<ul>
+					<li ><input type="button" name="" id="userAddres" value="使用地址" style="color:#fff;background:#005599;"/></li>
+					<li><input type="button" name="" id="userAddres" class="userAddres"  value="取消" /></li>
+				</ul>
+			</div>
+			
+			
+			<div id="Popup1"></div>
+			<div id="Popup2"></div>
+			<div id="Popup3"></div>
+			<div id="Popup4"></div>
+			<div id="Popup5"></div>
+		</div>
 <!-------------------------vote--投票--------------------------------->
 		
-		<div class="vote"></div>
+		<div class="vote">
+				<ul>
+				<li><div class="voteP"><input type="checkbox"/>个人发票</div></li>
+				<li><div class="voteP" id="voteP6"><input type="checkbox" id="gonsi"/>公司发票</div></li>
+				<li style="font-size:12px;color:#ccc;">*索取发票后，退货需连同发票一起寄回。</li>
+			</ul>
+			<div class="vote-1">
+				*<input type="text" name="" id="voteName" value="请填写公司名称" /><br>
+				*<input type="text" name="" id="voteName" value="请正确填写纳税人识别号" />
+			</div>
+		</div>
 
 
 
@@ -434,6 +536,9 @@
 			</div>
 		</div>
 	</div>
+	
+	
+<div id='hidebg'></div>
 	</body>
 </html>
 <script type="text/javascript" src="js/jquery-1.8.3.js"> </script>
