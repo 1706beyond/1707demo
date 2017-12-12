@@ -904,6 +904,11 @@ a {
   color: #fff;
   font-size: 18px; }
 
+.goods2 button:hover {
+  cursor: pointer;
+  background: #006ab6;
+  color: red; }
+
 .check {
   float: left;
   margin-top: 40px; }

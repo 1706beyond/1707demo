@@ -18,26 +18,100 @@
 .matter-wrap {
   width: 100%;
   height: 645px;
-  background: pink; }
+  background: #fff; }
 
 .matter {
   width: 1163px;
   height: 645px;
   margin: 0px auto;
-  margin-left: 70px;
-  background: gold; }
+  margin-left: 70px; }
 
 .matter1 {
   float: left;
   width: 748px;
-  height: 645px;
-  border: 1px solid red; }
+  height: 645px; }
 
 .matter2 {
   float: left;
   width: 400px;
-  height: 645px;
-  border: 1px solid red; }
+  height: 645px; }
+
+.matter2-1 {
+  margin: 25px;
+  width: 328px;
+  height: 576px; }
+
+.matter2-1-1 {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 323px;
+  height: 148px;
+  border-bottom: 1px solid #fff;
+  background: #949da9; }
+
+.matter2-1-1 li {
+  width: 328px;
+  height: 49px;
+  line-height: 49px;
+  color: #fff; }
+
+.matter2-1-1 li #youhui {
+  width: 187px;
+  height: 37px;
+  color: #666;
+  border: 1px solid #666; }
+
+.matter2-1-1 li #submit6 {
+  width: 97px;
+  height: 41px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: #949da9;
+  border-radius: 5px; }
+
+.matter2-1-1 li #submit6:hover {
+  cursor: pointer;
+  background: #fff;
+  color: blue;
+  border-radius: 5px; }
+
+.youhj:hover {
+  cursor: pointer; }
+
+.matter2-1-2 {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 323px;
+  height: 239px;
+  background: #949da9; }
+
+.matter2-1-2 li {
+  width: 310px;
+  height: 43px;
+  color: #fff;
+  font-size: 18px; }
+
+.matter2-1-2 li span {
+  float: right; }
+
+.matter2-1-2 li #jiesuan {
+  width: 300px;
+  height: 43px;
+  color: #fff;
+  font-size: 14px;
+  background: #00559a;
+  border-radius: 5px;
+  border: none;
+  margin-left: 7px; }
+
+.matter2-1-2 li #jiesuan:hover {
+  background: #20cbe4; }
+
+.matter2-1-3 {
+  width: 326px;
+  height: 174px;
+  border: 1px solid #949da9;
+  background: #fff; }
 
 .matter1-1 {
   width: 748px;
@@ -57,6 +131,11 @@
   color: #fff;
   border: none;
   border-radius: 5px; }
+
+#mButton button:hover {
+  cursor: pointer;
+  background: #0669b2;
+  color: red; }
 
 .matter1-2 {
   width: 748px;
@@ -104,14 +183,242 @@
   cursor: pointer; }
 
 .vote {
+  position: relative;
   position: absolute;
-  width: 400px;
+  width: 600px;
   height: 200px;
-  border: 1px solid red;
+  border: 1px solid gainsboro;
   bottom: -410px;
   left: 115px;
   z-index: 40;
-  background: yellow;
+  background: #fff;
   display: none; }
+
+.vote ul li {
+  width: 240px;
+  height: 40px;
+  line-height: 40px; }
+
+.vote ul li .voteP {
+  margin-top: 5px;
+  width: 80px;
+  height: 27px;
+  line-height: 27px; }
+
+.vote ul li .voteP:hover {
+  cursor: pointer; }
+
+.vote-1 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 200px;
+  height: 80px;
+  display: none;
+  background: gainsboro; }
+
+#voteName {
+  border: 1px solid gray;
+  margin-top: 8px;
+  height: 24px;
+  width: 170px;
+  border-radius: 5px; }
+
+.dAddress {
+  top: 210px;
+  left: 300px;
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: ghostwhite;
+  z-index: 50;
+  display: none; }
+
+.dAddress1 {
+  width: 700px;
+  height: 35px;
+  background: gray;
+  line-height: 35px;
+  font-size: 24px; }
+
+.dAddress1 span {
+  float: right;
+  margin-right: 5px;
+  color: red; }
+
+.dAddress1 span:hover {
+  cursor: pointer; }
+
+.dAddress2 {
+  width: 670px;
+  height: 40px;
+  background: gainsboro;
+  line-height: 35px;
+  font-size: 22px;
+  padding-left: 30px; }
+
+.dAddress3 {
+  width: 700px;
+  height: 420px; }
+
+.dAddress3 li {
+  width: 620px;
+  height: 68px;
+  margin-left: 54px;
+  line-height: 68px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 900; }
+
+.dAddtab1 {
+  width: 510px;
+  height: 42px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 10px; }
+
+.dAddtab2 {
+  width: 510px;
+  height: 42px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 24px; }
+
+.dAddtab3 {
+  width: 510px;
+  height: 42px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 30px; }
+
+.dAddtab4 {
+  width: 510px;
+  height: 42px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 50px; }
+
+.dAddtab6 {
+  width: 510px;
+  height: 42px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 50px; }
+
+.dAddtab5 {
+  width: 163px;
+  height: 37px;
+  border: 1px dashed gainsboro;
+  border-radius: 5px;
+  margin-left: 5px; }
+
+.dAddtable7 {
+  width: 163px;
+  height: 37px;
+  border: 1px dashed gainsboro;
+  margin-left: 12px; }
+
+.dAddtable8 {
+  width: 163px;
+  height: 37px;
+  border: 1px dashed gainsboro;
+  margin-left: 12px; }
+
+.dAddress4 {
+  width: 500px;
+  height: 42px;
+  margin-left: 140px;
+  margin-top: 20px;
+  line-height: 42px;
+  font-size: 14px; }
+
+.dAddress5 {
+  width: 500px;
+  height: 50px;
+  margin-left: 120px;
+  margin-top: 30px; }
+
+.dAddress5 li {
+  float: left;
+  width: 165px;
+  height: 50px;
+  margin-left: 20px; }
+
+.dAddress5 li #userAddres {
+  border-radius: 5px;
+  width: 165px;
+  height: 50px;
+  border: 2px solid #005599;
+  color: #005599; }
+
+.dAddress5 li #userAddres:hover {
+  color: red;
+  background: #333; }
+
+#Popup1 {
+  position: absolute;
+  top: 132px;
+  left: 141px;
+  width: 300px;
+  height: 20px;
+  color: red;
+  display: none;
+  font-size: 14px; }
+
+#Popup2 {
+  position: absolute;
+  top: 200px;
+  left: 141px;
+  width: 300px;
+  height: 20px;
+  color: red;
+  display: none;
+  font-size: 14px; }
+
+#Popup3 {
+  position: absolute;
+  top: 268px;
+  left: 141px;
+  width: 300px;
+  height: 20px;
+  color: red;
+  display: none;
+  font-size: 14px; }
+
+#Popup4 {
+  position: absolute;
+  top: 338px;
+  left: 141px;
+  width: 300px;
+  height: 20px;
+  color: red;
+  display: none;
+  font-size: 14px; }
+
+#Popup5 {
+  position: absolute;
+  top: 475px;
+  left: 141px;
+  width: 300px;
+  height: 20px;
+  color: red;
+  display: none;
+  font-size: 14px; }
+
+#hidebg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: gray;
+  width: 100%;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  display: none;
+  z-Index: 2; }
 
 /*# sourceMappingURL=orderDetail.css.map */

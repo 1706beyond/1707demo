@@ -73,7 +73,10 @@ a {
   font-size: 14px;
   margin-top: 10px; }
 
-#p3:hover {
+#p3 a {
+  color: #fff; }
+
+#p3 a:hover {
   border-cursor: pointer;
   color: red; }
 
@@ -87,11 +90,11 @@ a {
   text-align: center;
   font-size: 14px;
   margin-top: 10px; }
- #p4  a{
-  	 color: #ffffff;
-  }
 
-#p4:hover {
+#p4 a {
+  color: #fff; }
+
+#p4 a:hover {
   border-cursor: pointer;
   color: red; }
 

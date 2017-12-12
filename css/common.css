@@ -14,14 +14,14 @@ a {
   background: #0a3665; }
 
 #top {
-  width: 1263px;
+  width: 1240px;
   height: 122px;
   background: #0a3665;
   margin: 0px auto;
   position: relative; }
 
 #top1 {
-  width: 1263px;
+  width: 1240px;
   height: 39px;
   position: absolute;
   margin: 0px auto; }
@@ -164,7 +164,7 @@ a {
   background: #0669b2; }
 
 #menu {
-  width: 1263px;
+  width: 1240px;
   height: 35px;
   background: #0669b2;
   margin: 0px auto;
@@ -457,7 +457,7 @@ a {
   z-index: 70; }
 
 #ceiling {
-  width: 1263px;
+  width: 1245px;
   height: 35px;
   background: #0669b2;
   margin: 0px auto;
@@ -734,15 +734,17 @@ a {
   color: red; }
 
 #ceimenu3 {
-  width: 470px;
+  width: 410px;
   height: 35px;
   position: absolute;
-  right: 0px; }
+  right: 0px;
+  margin-right: 10px; }
 
 #ceimenu3box {
   width: 150px;
   height: 24px;
   float: right;
+  margin-right: 5px;
   border-radius: 5px;
   margin-top: 3px; }
 
