@@ -237,27 +237,27 @@ $('#large-img').attr('src',img);
 });
 
 
-
-
-
-
     var oEnlargeBox= document.getElementById('enlarge-box');
     var oMiddleImg = document.getElementById('middle-img');
     var oLargeBox  = document.getElementById('large-box');
     var oLargeImg  = document.getElementById('large-img');
     var oMiddleBox = document.getElementById('middle-box');
     var oShadow    = document.getElementById('shadow');
-     var oContent11   = document.getElementById('content1-1');
-
+    var oContent11   = document.getElementById('content1-1');
+    
+    
 
     // 放大镜效果
     var iMaxL = oMiddleBox.offsetWidth  - oShadow.offsetWidth;
     var iMaxT = oMiddleBox.offsetHeight - oShadow.offsetHeight;
+    
     oMiddleBox.addEventListener('mousemove', (ev) => {
         var e = ev || window.event;
+     var oscrolltop= document.documentElement.scrollTop || document.body.scrollTop;
+   
         var
-            iL = e.clientX - oEnlargeBox.offsetLeft - oShadow.offsetWidth-oContent11.offsetWidth;
-            iT = e.clientY - oEnlargeBox.offsetTop  - oShadow.offsetHeight;
+            iL = e.clientX - document.getElementById('content2').offsetLeft - oShadow.offsetWidth/2;
+            iT = e.clientY -  document.getElementById('content2').offsetTop -oShadow.offsetHeight/2+oscrolltop;
 
         iL = Math.max(iL , 0);
         iT = Math.max(iT , 0);
@@ -294,9 +294,6 @@ $('#large-img').attr('src',img);
     		$('#large-box').stop(true).animate({width:0,height:0},300,'linear');
     });
     
-
-
-
 //------------------------bottom4的图片轮换
 	
 	var num=0;
